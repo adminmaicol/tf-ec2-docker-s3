@@ -10,7 +10,7 @@ variable "instance_type" {
 
 variable "cidr_blocks" {
   type    = string
-  default = "187.243.195.127/32"
+  default = "X.X.X.X/X"
 }
 
 variable "port" {
