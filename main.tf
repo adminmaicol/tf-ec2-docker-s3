@@ -42,7 +42,7 @@ module "ec2_instance" {
     cat <<'EOF' > /home/ec2-user/nginx-app/Dockerfile
     FROM nginx:latest
     COPY index.html /usr/share/nginx/html/index.html
-    EXPOSE 1708
+    EXPOSE 1809
     EOF
 
     # Build and run Docker container
